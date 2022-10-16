@@ -5,6 +5,7 @@
   "description": "Decrediton based on React, React Router, Webpack, React Hot Loader for rapid application development",
   "main": "main.js",
   "scripts": {
+    
     "test": "TZ=UTC cross-env NODE_ENV=test jest",
     "test-watch": "TZ=UTC ./node_modules/.bin/jest --watch",
     "test-debug": "node --inspect-brk ./node_modules/jest/bin/jest.js --runInBand --watch",
